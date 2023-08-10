@@ -1,0 +1,128 @@
+.body{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+    
+}
+
+.main{
+    /* border: 2px solid red; */
+    padding: 10px;
+    padding-bottom: 100px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #06054B;
+   
+    /* display: flex; */
+}
+
+h1{
+    color: white;
+}
+
+.container{
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+
+.myInput{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid yellow;
+    outline: none;
+    background-color: #06054B;
+    color: white;
+}
+
+
+
+.add-btn{
+    margin-left: 5px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: azure;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: yellow;
+}
+
+ol{
+    /* border: 2px solid green; */
+    margin-top: 50px;
+    /* margin-left: -15px; */
+    
+}
+
+li{
+    
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 10px;
+    list-style: none;
+    /* border: 2px solid red; */
+    
+}
+
+
+
+.delete-btn {
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.update-btn{
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.input-list{
+    padding: auto;
+    font-size: 20px;
+    border: none;
+    /* border-bottom: 2px solid yellow; */
+    outline: none;
+    background-color: #06054B;
+    color: white;
+}
+
+.input-list:focus{
+    border-bottom: 2px solid yellow;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .out_text{
+    width: 300px;
+  }
